@@ -1,0 +1,24 @@
+{
+  "name": "l33t-algo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "remove-nth-node.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmtun/l33t-algo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmtun/l33t-algo/issues"
+  },
+  "homepage": "https://github.com/kmtun/l33t-algo#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}

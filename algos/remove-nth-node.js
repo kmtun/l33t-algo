@@ -1,3 +1,8 @@
+function ListNode(val) {
+  this.val = val;
+  this.next = null;
+}
+
 let removeNthFromEnd = function (head, n) {
   let dummy = new ListNode(0);
   dummy.next = head;

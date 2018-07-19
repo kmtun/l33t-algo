@@ -34,6 +34,7 @@ let addTwoNumbers = function (l1, l2) {
     if(l2) l2 = l2.next;
   }
   //edge case incase if list only has one digit each and it has carry
+  //or last number has carry
   if(carry > 0) {
     prev.next = new ListNode(carry);
   }
@@ -41,12 +42,12 @@ let addTwoNumbers = function (l1, l2) {
 };
 
 let list = new ListNode(5);
-// let nodeB = list.next = new ListNode(4);
-// let nodeC = nodeB.next = new ListNode(3);
+let nodeB = list.next = new ListNode(4);
+let nodeC = nodeB.next = new ListNode(3);
 
 let list2 = new ListNode(5);
-// let nodeD = list2.next = new ListNode(6);
-// let nodeE = nodeD.next = new ListNode(4);
+let nodeD = list2.next = new ListNode(6);
+let nodeE = nodeD.next = new ListNode(4);
 
 // let list = new ListNode(1);
 // let nodeB = list.next = new ListNode(8);

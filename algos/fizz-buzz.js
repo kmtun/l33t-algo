@@ -1,15 +1,14 @@
 var fizzBuzz = function(n) {
   let result = [];
   for(let i = 1; i <= n; i++) {
-      let temp = '';
-      if(i % 3 === 0) {
-          temp += 'Fizz';
+      if(!(i % 3) && !(i % 5)) {
+          result.push('FizzBuzz');
       }
-      if(i % 5 === 0) {
-          temp += 'Buzz';
+      else if(!(i % 3)) {
+          result.push('Fizz');
       }
-      if(i % 3 === 0 && i % 5 === 0) {
-          result.push(temp);
+      else if(!(i % 5)) {
+          result.push('Buzz');
       }
       else {
           result.push(i.toString());

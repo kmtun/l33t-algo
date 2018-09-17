@@ -22,6 +22,7 @@
 
 const swapPairs = head => {
   if(head && head.next) {
+    // second will be node that get swapped with node before it
     let second = head.next;
     let first = head;
     let rest = head.next.next;
